@@ -1,178 +1,91 @@
-\# 🕹️ Unity Games Collection / Colección de Juegos en Unity
+# 🟡 Pac-Man Unity
 
-
-
-Welcome! 👋 This is a personal collection of mini-games built with Unity.  
-
-I started this journey to learn game development and, most importantly, to share the fun of building and playing with my child. 🧒❤️
-
-
-
-¡Bienvenido/a! 👋 Esta es una colección personal de minijuegos creados con Unity.  
-
-Comencé este proyecto para aprender sobre desarrollo de videojuegos y, sobre todo, para compartir la diversión de construir y jugar con mi hijo. 🧒❤️
-
-
-
-Each game explores simple but meaningful mechanics — from classic remakes to small creative experiments.  
-
-Cada juego explora mecánicas simples pero significativas — desde remakes clásicos hasta pequeños experimentos creativos.
-
-
+A simple remake of the classic Pac-Man game, built with Unity 2D.  
+Una versión sencilla del clásico Pac-Man, desarrollada en Unity 2D.
 
 ---
 
+## ✅ Features / Características
 
+- Player movement using arrow keys or WASD  
+- Basic ghost AI with simple chase and scatter behaviors  
+- Collectible pellets with scoring system  
+- Lives system and game over condition  
+- Maze designed with Tilemap for easy editing  
+- Sound effects and simple animations
 
-\## 📦 Included Projects / Proyectos Incluidos
-
-
-
-\### 🟡 pacman
-
-
-
-A playable version of the classic Pac-Man, recreated in Unity 2D.  
-
-Una versión jugable del clásico Pac-Man, recreada en Unity 2D.
-
-
-
-\#### ✅ Features / Características
-
-
-
-\- Arrow key movement 🕹️ / Movimiento con flechas  
-
-\- Basic ghost AI 👻 / IA básica para los fantasmas  
-
-\- Scoring and lives system 🍒 / Sistema de puntos y vidas  
-
-\- Tilemap-based maze 🧱 / Laberinto basado en Tilemaps
-
-
-
-➡️ \[Project Folder / Carpeta del Proyecto](https://github.com/jcombari/My-Unity-Projects/tree/main/pacman)
-
-
+- Movimiento del jugador con flechas o WASD  
+- IA básica para fantasmas con modos de persecución y dispersión  
+- Pellets coleccionables y sistema de puntuación  
+- Sistema de vidas y condición de fin de juego  
+- Laberinto creado con Tilemap para fácil edición  
+- Efectos de sonido y animaciones simples
 
 ---
 
+## ▶️ How to Use / Cómo usarlo
 
+1. Open the Unity project located in the `/PacmanUnity/` folder.  
+2. Open the scene `MainScene` (or the scene you use for gameplay).  
+3. Press Play to start the game.  
+4. Use arrow keys or WASD to move Pac-Man around the maze.  
+5. Avoid ghosts and collect all pellets to win.
 
-\## 🚧 Upcoming Projects / Próximamente
-
-
-
-\- 🐦 \*\*flappy-bird\*\*  
-
-&nbsp; A Flappy Bird clone with pipe obstacles and scoring system  
-
-&nbsp; Un clon de Flappy Bird con tubos aleatorios y sistema de puntos
-
-
-
-\- 🧱 \*\*platformer-2d\*\*  
-
-&nbsp; Simple 2D platformer with gravity, enemies, and collectibles  
-
-&nbsp; Plataforma 2D con gravedad, enemigos y objetos para recolectar
-
-
-
-\- 🧠 \*\*memory-game\*\*  
-
-&nbsp; A kid-friendly memory matching game  
-
-&nbsp; Un memotest visual ideal para niños
-
-
+1. Abre el proyecto Unity ubicado en la carpeta `/PacmanUnity/`.  
+2. Abre la escena `MainScene` (o la escena que uses para jugar).  
+3. Presiona Play para iniciar el juego.  
+4. Usa las flechas o WASD para mover a Pac-Man por el laberinto.  
+5. Evita a los fantasmas y recoge todos los pellets para ganar.
 
 ---
 
+## 🗂️ Project Files / Archivos del Proyecto
 
-
-\## 🧠 Why Unity? / ¿Por qué Unity?
-
-
-
-Unity is powerful, yes — but what I love most is how quickly you can turn an idea into something you can play and share.  
-
-Seeing your character move, being chased by ghosts, hearing sounds, collecting items… it all comes to life.
-
-
-
-Unity es poderoso, sí — pero lo que más me gusta es lo rápido que puedes transformar una idea en algo jugable y compartible.  
-
-Ver a tu personaje moverse, los fantasmas persiguiéndolo, los sonidos, los objetos… todo cobra vida.
-
-
-
-This repo is my way of learning step-by-step — and also of showing my son how fun logic and creativity can be.  
-
-Este repositorio es mi forma de aprender paso a paso — y también de mostrarle a mi hijo lo divertida que puede ser la lógica y la creatividad.
-
-
+| File                  | Description / Descripción                            |
+|-----------------------|-----------------------------------------------------|
+| `GameManager.cs`      | Manages game state, score, lives, and win/lose logic / Controla estado del juego, puntaje, vidas y lógica de ganar/perder |
+| `PacManController.cs` | Player input and movement logic / Control y movimiento del jugador |
+| `GhostAI.cs`          | Basic AI for ghost behaviors (chase, scatter) / IA básica para fantasmas (persecución, dispersión) |
+| `Pellet.cs`           | Logic for collectible pellets / Lógica de pellets coleccionables |
 
 ---
 
+## 🎨 Assets / Recursos
 
+- Maze tiles and sprites created or sourced for classic Pac-Man look  
+- Sounds for pellet collection, ghost movement, and game events  
+- Simple animations for Pac-Man and ghosts
 
-\## 🛠️ Technologies Used / Tecnologías Utilizadas
-
-
-
-\- Unity 2021.3+  
-
-\- C# scripting  
-
-\- 2D physics, collisions, and triggers / físicas, colisiones y triggers en 2D  
-
-\- Tilemap \& Sprite system / sistema de tilemaps y sprites  
-
-\- Blender (basic use) and free assets / Blender (uso básico) y recursos gratuitos
-
-
+- Tiles y sprites para el laberinto con estilo clásico de Pac-Man  
+- Sonidos para colección de pellets, movimiento de fantasmas y eventos  
+- Animaciones simples para Pac-Man y fantasmas
 
 ---
 
+## 🎮 Controls / Controles
 
+- Move Pac-Man: Arrow Keys or WASD  
+- Quit game: Escape key (if implemented)  
 
-\## 📂 Repository Structure / Estructura del Repositorio
-
-
-
-| Folder / Carpeta | Description / Descripción |
-
-|------------------|----------------------------|
-
-| `/pacman`        | Pac-Man game files / Archivos del juego Pac-Man |
-
-| `/README.md`     | Main project info / Información general del proyecto |
-
-| (future folders) | More games coming soon / Más juegos en camino |
-
-
+- Mover Pac-Man: Flechas del teclado o WASD  
+- Salir del juego: Tecla Escape (si está implementada)
 
 ---
 
+## 📌 Notes / Notas
 
+- This is a learning project aimed at beginners and kids.  
+- Feel free to expand with new ghost behaviors, power-ups, or levels!
 
-\## 🔗 Repository Link / Enlace al Repositorio
-
-
-
-\[https://github.com/jcombari/My-Unity-Projects](https://github.com/jcombari/My-Unity-Projects)
-
-
+- Proyecto de aprendizaje dirigido a principiantes y niños.  
+- ¡Siéntete libre de expandir con nuevos comportamientos de fantasmas, power-ups o niveles!
 
 ---
 
+## 🔗 Repository Link / Enlace al repositorio principal
 
+[https://github.com/tuusuario/mis-proyectos-unity](https://github.com/tuusuario/mis-proyectos-unity)
 
-Thanks for visiting! If any of this helps, inspires, or brings back nostalgia — mission accomplished.  
+---
 
-Gracias por pasar. Si algo de esto te ayuda, inspira o trae nostalgia… misión cumplida. 🎮💙
-
-
-
+Enjoy playing and learning! / ¡Disfruta jugando y aprendiendo! 🎮👾
